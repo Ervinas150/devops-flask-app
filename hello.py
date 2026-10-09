@@ -4,7 +4,7 @@ app=Flask(__name__)
 
 @app.route('/')
 def say_hello():
-    return '<p>Welcome</p>'
+    return '<p>Welcome</p><a href="https://www.python.org/">Python page</a>'
 
 @app.route('/about')
 def say_about():
