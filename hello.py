@@ -10,4 +10,4 @@ def say_hello():
 def say_about():
     return 'My name is Ervinas <br> My number is 12345678'
 
-
+app.run(host="0.0.0.0", port=5000)
